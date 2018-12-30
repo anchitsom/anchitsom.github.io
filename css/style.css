@@ -206,6 +206,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	p{
 		margin:0 0 5px;
+		margin-bottom: 10px;
 		font-family: 'Quicksand', sans-serif;
 		line-height: 1.8;
 	}
@@ -321,9 +322,18 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
  		margin-left:  20px;
  	}
 
+	.margin-botom{
+		margin-bottom: 20px;
+	}
+
 	.marginlil{
 		margin-top:  40px;
 	}
+
+	.marginlilmore{
+		margin-top:  80px;
+	}
+
 
 /*	Border Styles
 -------------------------*/
@@ -1508,6 +1518,22 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		z-index: 3;
 	}
 
+	.nav-trigger2{
+		position: fixed;
+		top: 55px;
+		left: 10%;
+		z-index: 3;
+	}
+
+	.backbutton{
+		position: fixed;
+		top: 50px;
+		left: 5%;
+		height: 40px;
+		width: 40px;
+		z-index: 3;
+	}
+
 
 	.uk-nav, .uk-nav ul {
 		margin: 0;
@@ -1601,7 +1627,12 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		letter-spacing: 6px;
 	}
 
+.navmenu:active{
 
+	background-color: #191919
+	color: #fff;
+
+}
 
 
 /*======================
@@ -1799,8 +1830,8 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	#about,
 	#about-page,
 	#about-2{
-		padding-top: 150px;
-		padding-bottom: 150px;
+		padding-top: 100px;
+		padding-bottom: 100px;
 
 	}
 
@@ -1930,6 +1961,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding-bottom: 150px;
 	}
 
+	.uk-slider {
+		margin-top:30px;
+	}
+
 
 	.uk-slider h3{
 		line-height: 1.5;
@@ -1954,10 +1989,13 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	}
 
 	.uk-slider img{
-		max-width: 50px;
 		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 20px;
-		border-radius: 100%;
+		height: 70%;
+		width: 70%;
+		max-height: 300px;
 	}
 
 
@@ -1997,6 +2035,39 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		opacity: 0.8;
 	}
 
+	.service img{
+		height: 120px;
+		width: 200px;
+	}
+
+
+	#observation,
+	#observation-page{
+		padding-top: 40px;
+		padding-bottom: 150px;
+	}
+
+	.observation{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#observation2,
+	#observation2-page{
+		padding-top: 40px;
+		padding-bottom: 150px;
+	}
+
+	.observation2{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.verticalLine {
+	margin-top: 30px;
+	margin-left: 20px;
+	border-width: 0.5px;
+  border-left: solid #A9A9A9;
+}
 
 
 /*========================
@@ -2004,6 +2075,46 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	13. Blog
 
 ==========================*/
+
+#iteration,
+#iteration-page{
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+
+.iteration{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.iteration img{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.marginleftkaafi{
+
+	margin-left:40px;
+}
+
+#solution,
+#solution-page{
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+
+.solution{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.solution img{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
 
 
 
@@ -2019,7 +2130,14 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 /* Blog Post
 ----------------------------*/
 
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-6qw1{background-color:#c0c0c0;text-align:center;vertical-align:top}
 
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
 
 
 	#blog-post{
