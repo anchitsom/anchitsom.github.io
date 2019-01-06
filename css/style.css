@@ -256,6 +256,11 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding-right: 7px;
 	}
 
+	.padding-left-right-30px{
+		padding-left: 185px;
+		padding-right: 185px;
+	}
+
 	.no-padding{
 		padding:0 !important;
 	}
@@ -1520,8 +1525,8 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	.nav-trigger2{
 		position: fixed;
-		top: 55px;
-		left: 10%;
+		top: 50px;
+		left: 5%;
 		z-index: 3;
 	}
 
@@ -2075,6 +2080,17 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
   border-left: solid #A9A9A9;
 }
 
+.box {
+border-width: 1px;
+background-color: #191919;
+border-left: solid;
+border-right: solid;
+border-bottom: solid;
+border-top: solid;
+padding-left: 10px;
+
+}
+
 
 /*========================
 
@@ -2108,6 +2124,12 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	margin-left:27px;
 }
+
+.marginrightlil{
+
+	margin-right:30px;
+}
+
 
 #solution,
 #solution-page{
@@ -3215,7 +3237,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		}
 
 		.about-img{
-			margin-bottom: 30px;
+			margin-bottom: 10px;
 		}
 
 		.history i{
