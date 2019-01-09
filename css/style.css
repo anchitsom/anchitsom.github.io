@@ -1530,6 +1530,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		z-index: 3;
 	}
 
+	.website-button{
+		right: 5%;
+	}
+
 	.backbutton{
 		position: fixed;
 		top: 50px;
