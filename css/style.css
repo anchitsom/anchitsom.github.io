@@ -122,6 +122,65 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 /* Essential Styling
 -------------------------*/
 
+.hamb {
+	width: 23px;
+	height: 3px;
+	background-color: black;
+	margin: 3px 0;
+  }
+
+
+
+/* .nav {
+	float: right;
+	top: 0;
+	width: 100%;
+	background-color: #000;
+  }
+  
+  .nav ul {
+	margin: 0;
+	padding: 5px;
+	list-style: none;
+  }
+  
+  .nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+  
+	position: relative;
+  }
+  
+  .nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  .nav a:hover {
+	color: #fff;
+  }
+  
+  .nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #ffffff;
+  
+	position: absolute;
+	top: 0;
+	width: 0%;
+  
+	transition: all ease-in-out 250ms;
+  }
+  
+  .nav a:hover::before {
+	width: 100%;
+  }
+  
 
 
 	*{
@@ -132,7 +191,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	::selection {
 		background-color: #ececec;
-	}
+	} */
 
 
 	html, body {
@@ -1516,7 +1575,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 -------------------------*/
 
 
-	.nav-trigger{
+	.nav-trigger1{
 		position: fixed;
 		top: 50px;
 		left: 5%;
@@ -1526,7 +1585,14 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.nav-trigger2{
 		position: fixed;
 		top: 50px;
-		left: 5%;
+		left: 20%;
+		z-index: 3;
+	}
+
+	.nav-trigger3{
+		position: fixed;
+		top: 50px;
+		left: 30%;
 		z-index: 3;
 	}
 
