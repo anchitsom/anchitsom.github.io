@@ -1,18 +1,31 @@
+import { Link, useLocation } from "react-router-dom";
+
 const Header = () => {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
   const scrollTo = (id: string) => {
+    if (!isHome) {
+      window.location.href = `/#${id}`;
+      return;
+    }
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const navLink = "hover:text-foreground transition-colors duration-200";
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="prose-editorial flex items-center justify-between py-4 px-6 lg:px-0">
-        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="font-display text-lg font-semibold text-foreground tracking-tight">
+        <Link to="/" className="font-display text-lg font-semibold text-foreground tracking-tight">
           Anchit Som
-        </button>
-        <div className="flex items-center gap-8 text-sm font-medium text-muted-foreground">
-          <button onClick={() => scrollTo("writing")} className="hover:text-foreground transition-colors duration-200">Writing</button>
-          <button onClick={() => scrollTo("about")} className="hover:text-foreground transition-colors duration-200">About</button>
-          <button onClick={() => scrollTo("newsletter")} className="hover:text-foreground transition-colors duration-200">Newsletter</button>
+        </Link>
+        <div className="flex items-center gap-6 md:gap-8 text-sm font-medium text-muted-foreground">
+          <button onClick={() => scrollTo("writing")} className={navLink}>Writing</button>
+          <Link to="/experiments" className={navLink}>Experiments</Link>
+          <Link to="/reflections" className={navLink}>Reflections</Link>
+          <Link to="/reading" className={navLink}>Reading</Link>
+          <button onClick={() => scrollTo("about")} className={navLink}>About</button>
         </div>
       </nav>
     </header>
