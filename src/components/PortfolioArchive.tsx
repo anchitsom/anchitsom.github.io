@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ArchiveProject {
   title: string;
@@ -74,6 +75,14 @@ const PortfolioArchive = () => {
               </p>
             </motion.a>
           ))}
+        </div>
+        <div className="mt-8 pt-6 border-t border-border">
+          <Link
+            to="/archive"
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
+          >
+            View full archive with case study details <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </div>
     </section>

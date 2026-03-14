@@ -21,10 +21,8 @@ const Header = () => {
           Anchit Som
         </Link>
         <div className="flex items-center gap-6 md:gap-8 text-sm font-medium text-muted-foreground">
-          <button onClick={() => scrollTo("writing")} className={navLink}>Writing</button>
+          <Link to="/writing" className={navLink}>Writing</Link>
           <Link to="/experiments" className={navLink}>Experiments</Link>
-          <Link to="/reflections" className={navLink}>Reflections</Link>
-          <Link to="/reading" className={navLink}>Reading</Link>
           <button onClick={() => scrollTo("about")} className={navLink}>About</button>
         </div>
       </nav>
